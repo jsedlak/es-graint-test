@@ -13,6 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\GrainTest.Common\GrainTest.Common.csproj" />
       <ProjectReference Include="..\Petl.EventSourcing.Orleans\Petl.EventSourcing.Orleans.csproj" />
       <ProjectReference Include="..\Petl.EventSourcing.Providers.MongoDb\Petl.EventSourcing.Providers.MongoDb.csproj" />
     </ItemGroup>
