@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petl.EventSourcing", "src\Petl.EventSourcing\Petl.EventSourcing.csproj", "{1D030590-1536-4EEB-B5E8-076899651B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petl.EventSourcing.Orleans", "src\Petl.EventSourcing.Orleans\Petl.EventSourcing.Orleans.csproj", "{174E9403-BA8F-4C55-B46F-6410B6AAFD43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petl.EventSourcing.Providers.MongoDb", "src\Petl.EventSourcing.Providers.MongoDb\Petl.EventSourcing.Providers.MongoDb.csproj", "{16EB9941-76B2-467A-92A0-691C774F54C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainTest.Common", "src\GrainTest.Common\GrainTest.Common.csproj", "{5886AAEB-8CC3-4F00-A86A-7B979F0D5B0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Lib", "1. Lib", "{DFC1BAA3-6EE4-4FD5-A9E6-6B96D4E60975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainTest.Client", "src\GrainTest.Client\GrainTest.Client.csproj", "{C960AD42-8F88-47FD-BD30-AA6631B24730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainTest.Server", "src\GrainTest.Server\GrainTest.Server.csproj", "{496039B1-F441-4521-884F-E280AD88AA12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D030590-1536-4EEB-B5E8-076899651B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D030590-1536-4EEB-B5E8-076899651B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D030590-1536-4EEB-B5E8-076899651B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D030590-1536-4EEB-B5E8-076899651B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174E9403-BA8F-4C55-B46F-6410B6AAFD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174E9403-BA8F-4C55-B46F-6410B6AAFD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174E9403-BA8F-4C55-B46F-6410B6AAFD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174E9403-BA8F-4C55-B46F-6410B6AAFD43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16EB9941-76B2-467A-92A0-691C774F54C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16EB9941-76B2-467A-92A0-691C774F54C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16EB9941-76B2-467A-92A0-691C774F54C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16EB9941-76B2-467A-92A0-691C774F54C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5886AAEB-8CC3-4F00-A86A-7B979F0D5B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5886AAEB-8CC3-4F00-A86A-7B979F0D5B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5886AAEB-8CC3-4F00-A86A-7B979F0D5B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5886AAEB-8CC3-4F00-A86A-7B979F0D5B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C960AD42-8F88-47FD-BD30-AA6631B24730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C960AD42-8F88-47FD-BD30-AA6631B24730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C960AD42-8F88-47FD-BD30-AA6631B24730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C960AD42-8F88-47FD-BD30-AA6631B24730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496039B1-F441-4521-884F-E280AD88AA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496039B1-F441-4521-884F-E280AD88AA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496039B1-F441-4521-884F-E280AD88AA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496039B1-F441-4521-884F-E280AD88AA12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D030590-1536-4EEB-B5E8-076899651B22} = {DFC1BAA3-6EE4-4FD5-A9E6-6B96D4E60975}
+		{174E9403-BA8F-4C55-B46F-6410B6AAFD43} = {DFC1BAA3-6EE4-4FD5-A9E6-6B96D4E60975}
+		{16EB9941-76B2-467A-92A0-691C774F54C3} = {DFC1BAA3-6EE4-4FD5-A9E6-6B96D4E60975}
+	EndGlobalSection
+EndGlobal
